@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./assets/css/reset.css" />
+        <link rel="stylesheet" href="./assets/css/admin-tables.css" />
+        <!-- Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+            rel="stylesheet"
+        />
+        <!-- Icon -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+            integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <title>Admin Tables</title>
+    </head>
+    <body>
+        <div class="container">
+            <table class="table">
+                <thead>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--sort">
+                            Business Listing
+                        </th>
+                        <th class="table__cell table__cell--sort">
+                            Start Date
+                        </th>
+                        <th class="table__cell table__cell--sort">Vendor ID</th>
+                        <th class="table__cell table__cell--sort">Status</th>
+                        <th class="table__cell table__cell--sort">Region</th>
+                        <th class="table__cell table__cell--sort">Posts</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="table__row">
+                        <td class="table__cell">
+                            <div class="user">
+                                <div class="avatar">
+                                    <img
+                                        src="./assets/img/avatar/avatar-img-01.png"
+                                        alt=""
+                                        class="avatar__img"
+                                    />
+                                    <div class="avatar__sticked">
+                                        <i class="fa-solid fa-circle-check"></i>
+                                    </div>
+                                </div>
+                                <span class="user__name">Joe Ld A.</span>
+                            </div>
+                        </td>
+                        <td class="table__cell">8/21/15</td>
+                        <td class="table__cell">785594</td>
+                        <td class="table__cell table__cell--align-center">
+                            <span class="table-status"> Active </span>
+                        </td>
+                        <td class="table__cell">Canada (Central)</td>
+                        <td class="table__cell table__cell--align-right">70</td>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__cell">
+                            <div class="user">
+                                <div class="avatar">
+                                    <img
+                                        src="./assets/img/avatar/avatar-img-02.png"
+                                        alt=""
+                                        class="avatar__img"
+                                    />
+                                    <div class="avatar__sticked">
+                                        <i class="fa-solid fa-circle-check"></i>
+                                    </div>
+                                </div>
+                                <span class="user__name"
+                                    >Pizza Planet Inc.</span
+                                >
+                            </div>
+                        </td>
+                        <td class="table__cell">8/21/15</td>
+                        <td class="table__cell">882591</td>
+                        <td class="table__cell table__cell--align-center">
+                            <span class="table-status table-status--deactivate">
+                                Not Found
+                            </span>
+                        </td>
+                        <td class="table__cell">New York (East)</td>
+                        <td class="table__cell table__cell--align-right">
+                            103
+                        </td>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__cell">
+                            <div class="user">
+                                <div class="avatar">
+                                    <img
+                                        src="./assets/img/avatar/avatar-img-03.png"
+                                        alt=""
+                                        class="avatar__img"
+                                    />
+                                    <div class="avatar__sticked">
+                                        <i class="fa-solid fa-circle-check"></i>
+                                    </div>
+                                </div>
+                                <span class="user__name">Gail Schneider.</span>
+                            </div>
+                        </td>
+                        <td class="table__cell">8/21/15</td>
+                        <td class="table__cell">785594</td>
+                        <td class="table__cell table__cell--align-center">
+                            <span class="table-status">Active</span>
+                        </td>
+                        <td class="table__cell">Washington (Central)</td>
+                        <td class="table__cell table__cell--align-right">50</td>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__cell">
+                            <div class="user">
+                                <div class="avatar">
+                                    <img
+                                        src="./assets/img/avatar/avatar-img-04.png"
+                                        alt=""
+                                        class="avatar__img"
+                                    />
+                                    <div class="avatar__sticked">
+                                        <i class="fa-solid fa-circle-check"></i>
+                                    </div>
+                                </div>
+                                <span class="user__name">Rosa Bridges.</span>
+                            </div>
+                        </td>
+                        <td class="table__cell">8/21/15</td>
+                        <td class="table__cell">785594</td>
+                        <td class="table__cell table__cell--align-center">
+                            <span class="table-status">Active</span>
+                        </td>
+                        <td class="table__cell">Le Cres (Central)</td>
+                        <td class="table__cell table__cell--align-right">90</td>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__cell">
+                            <div class="user">
+                                <div class="avatar">
+                                    <img
+                                        src="./assets/img/avatar/avatar-img-05.png"
+                                        alt=""
+                                        class="avatar__img"
+                                    />
+                                    <div class="avatar__sticked">
+                                        <i class="fa-solid fa-circle-check"></i>
+                                    </div>
+                                </div>
+                                <span class="user__name">Tim Mcneil.</span>
+                            </div>
+                        </td>
+                        <td class="table__cell">8/21/15</td>
+                        <td class="table__cell">785594</td>
+                        <td class="table__cell table__cell--align-center">
+                            <span class="table-status">Active</span>
+                        </td>
+                        <td class="table__cell">Orciano Pisano (Central)</td>
+                        <td class="table__cell table__cell--align-right">
+                            290
+                        </td>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__cell">
+                            <div class="user">
+                                <div class="avatar">
+                                    <img
+                                        src="./assets/img/avatar/avatar-img-03.png"
+                                        alt=""
+                                        class="avatar__img"
+                                    />
+                                    <div class="avatar__sticked">
+                                        <i class="fa-solid fa-circle-check"></i>
+                                    </div>
+                                </div>
+                                <span class="user__name">Gail Schneider.</span>
+                            </div>
+                        </td>
+                        <td class="table__cell">8/21/15</td>
+                        <td class="table__cell">785594</td>
+                        <td class="table__cell table__cell--align-center">
+                            <span class="table-status">Active</span>
+                        </td>
+                        <td class="table__cell">Washington (Central)</td>
+                        <td class="table__cell table__cell--align-right">50</td>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__cell">
+                            <div class="user">
+                                <div class="avatar">
+                                    <img
+                                        src="./assets/img/avatar/avatar-img-04.png"
+                                        alt=""
+                                        class="avatar__img"
+                                    />
+                                    <div class="avatar__sticked">
+                                        <i class="fa-solid fa-circle-check"></i>
+                                    </div>
+                                </div>
+                                <span class="user__name">Rosa Bridges.</span>
+                            </div>
+                        </td>
+                        <td class="table__cell">8/21/15</td>
+                        <td class="table__cell">785594</td>
+                        <td class="table__cell table__cell--align-center">
+                            <span class="table-status table__cell--align-center"
+                                >Active</span
+                            >
+                        </td>
+                        <td class="table__cell">Le Cres (Central)</td>
+                        <td class="table__cell table__cell--align-right">90</td>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__cell">
+                            <div class="user">
+                                <div class="avatar">
+                                    <img
+                                        src="./assets/img/avatar/avatar-img-01.png"
+                                        alt=""
+                                        class="avatar__img"
+                                    />
+                                    <div class="avatar__sticked">
+                                        <i class="fa-solid fa-circle-check"></i>
+                                    </div>
+                                </div>
+                                <span class="user__name">Joe Ld A.</span>
+                            </div>
+                        </td>
+                        <td class="table__cell">8/21/15</td>
+                        <td class="table__cell">785594</td>
+                        <td class="table__cell table__cell--align-center">
+                            <span class="table-status"> Active </span>
+                        </td>
+                        <td class="table__cell">Canada (Central)</td>
+                        <td class="table__cell table__cell--align-right">70</td>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__cell">
+                            <div class="user">
+                                <div class="avatar">
+                                    <img
+                                        src="./assets/img/avatar/avatar-img-01.png"
+                                        alt=""
+                                        class="avatar__img"
+                                    />
+                                    <div class="avatar__sticked">
+                                        <i class="fa-solid fa-circle-check"></i>
+                                    </div>
+                                </div>
+                                <span class="user__name">Joe Ld A.</span>
+                            </div>
+                        </td>
+                        <td class="table__cell">8/21/15</td>
+                        <td class="table__cell">785594</td>
+                        <td class="table__cell table__cell--align-center">
+                            <span class="table-status"> Active </span>
+                        </td>
+                        <td class="table__cell">Canada (Central)</td>
+                        <td class="table__cell table__cell--align-right">70</td>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__cell">
+                            <div class="user">
+                                <div class="avatar">
+                                    <img
+                                        src="./assets/img/avatar/avatar-img-02.png"
+                                        alt=""
+                                        class="avatar__img"
+                                    />
+                                    <div class="avatar__sticked">
+                                        <i class="fa-solid fa-circle-check"></i>
+                                    </div>
+                                </div>
+                                <span class="user__name"
+                                    >Pizza Planet Inc.</span
+                                >
+                            </div>
+                        </td>
+                        <td class="table__cell">8/21/15</td>
+                        <td class="table__cell">882591</td>
+                        <td class="table__cell table__cell--align-center">
+                            <span class="table-status table-status--deactivate"
+                                >Not Found</span
+                            >
+                        </td>
+                        <td class="table__cell">New York (East)</td>
+                        <td class="table__cell table__cell--align-right">
+                            103
+                        </td>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__cell">
+                            <div class="user">
+                                <div class="avatar">
+                                    <img
+                                        src="./assets/img/avatar/avatar-img-03.png"
+                                        alt=""
+                                        class="avatar__img"
+                                    />
+                                    <div class="avatar__sticked">
+                                        <i class="fa-solid fa-circle-check"></i>
+                                    </div>
+                                </div>
+                                <span class="user__name">Gail Schneider.</span>
+                            </div>
+                        </td>
+                        <td class="table__cell">8/21/15</td>
+                        <td class="table__cell">785594</td>
+                        <td class="table__cell table__cell--align-center">
+                            <span class="table-status">Active</span>
+                        </td>
+                        <td class="table__cell">Washington (Central)</td>
+                        <td class="table__cell table__cell--align-right">50</td>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__cell">
+                            <div class="user">
+                                <div class="avatar">
+                                    <img
+                                        src="./assets/img/avatar/avatar-img-04.png"
+                                        alt=""
+                                        class="avatar__img"
+                                    />
+                                    <div class="avatar__sticked">
+                                        <i class="fa-solid fa-circle-check"></i>
+                                    </div>
+                                </div>
+                                <span class="user__name">Rosa Bridges.</span>
+                            </div>
+                        </td>
+                        <td class="table__cell">8/21/15</td>
+                        <td class="table__cell">785594</td>
+                        <td class="table__cell table__cell--align-center">
+                            <span class="table-status">Active</span>
+                        </td>
+                        <td class="table__cell">Le Cres (Central)</td>
+                        <td class="table__cell table__cell--align-right">90</td>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__cell">
+                            <div class="user">
+                                <div class="avatar">
+                                    <img
+                                        src="./assets/img/avatar/avatar-img-05.png"
+                                        alt=""
+                                        class="avatar__img"
+                                    />
+                                    <div class="avatar__sticked">
+                                        <i class="fa-solid fa-circle-check"></i>
+                                    </div>
+                                </div>
+                                <span class="user__name">Tim Mcneil.</span>
+                            </div>
+                        </td>
+                        <td class="table__cell">8/21/15</td>
+                        <td class="table__cell">785594</td>
+                        <td class="table__cell table__cell--align-center">
+                            <span class="table-status">Active</span>
+                        </td>
+                        <td class="table__cell">Orciano Pisano (Central)</td>
+                        <td class="table__cell table__cell--align-right">
+                            290
+                        </td>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__cell">
+                            <div class="user">
+                                <div class="avatar">
+                                    <img
+                                        src="./assets/img/avatar/avatar-img-03.png"
+                                        alt=""
+                                        class="avatar__img"
+                                    />
+                                    <div class="avatar__sticked">
+                                        <i class="fa-solid fa-circle-check"></i>
+                                    </div>
+                                </div>
+                                <span class="user__name">Gail Schneider.</span>
+                            </div>
+                        </td>
+                        <td class="table__cell">8/21/15</td>
+                        <td class="table__cell">785594</td>
+                        <td class="table__cell table__cell--align-center">
+                            <span class="table-status">Active</span>
+                        </td>
+                        <td class="table__cell">Washington (Central)</td>
+                        <td class="table__cell table__cell--align-right">50</td>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__cell">
+                            <div class="user">
+                                <div class="avatar">
+                                    <img
+                                        src="./assets/img/avatar/avatar-img-04.png"
+                                        alt=""
+                                        class="avatar__img"
+                                    />
+                                    <div class="avatar__sticked">
+                                        <i class="fa-solid fa-circle-check"></i>
+                                    </div>
+                                </div>
+                                <span class="user__name">Rosa Bridges.</span>
+                            </div>
+                        </td>
+                        <td class="table__cell">8/21/15</td>
+                        <td class="table__cell">785594</td>
+                        <td class="table__cell table__cell--align-center">
+                            <span class="table-status">Active</span>
+                        </td>
+                        <td class="table__cell">Le Cres (Central)</td>
+                        <td class="table__cell table__cell--align-right">90</td>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__cell">
+                            <div class="user">
+                                <div class="avatar">
+                                    <img
+                                        src="./assets/img/avatar/avatar-img-01.png"
+                                        alt=""
+                                        class="avatar__img"
+                                    />
+                                    <div class="avatar__sticked">
+                                        <i class="fa-solid fa-circle-check"></i>
+                                    </div>
+                                </div>
+                                <span class="user__name">Joe Ld A.</span>
+                            </div>
+                        </td>
+                        <td class="table__cell">8/21/15</td>
+                        <td class="table__cell">785594</td>
+                        <td class="table__cell table__cell--align-center">
+                            <span class="table-status"> Active </span>
+                        </td>
+                        <td class="table__cell">Canada (Central)</td>
+                        <td class="table__cell table__cell--align-right">70</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>
